@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="index.css">
+    
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+<section class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="card swiper-slide">
+            <div class="card_image">
+                <img src="me.jpg" alt="" >
+            </div>
+            <div class="card_content">
+                 <span class="card_title">Web Developer</span>
+                 <span class="card_name">Shaffan</span>
+                 <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, rerum?</p>
+                 
+            </div>
+        </div>
+
+
+        <div class="card swiper-slide">
+            <div class="card_image">
+                <img src="me.jpg" alt="" >
+            </div>
+            <div class="card_content">
+                 <span class="card_title">Web Developer</span>
+                 <span class="card_name">Shaffan</span>
+                 <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, rerum?</p>
+                 
+            </div>
+        </div>
+
+
+        <div class="card swiper-slide">
+            <div class="card_image">
+                <img src="me.jpg" alt="" >
+            </div>
+            <div class="card_content">
+                 <span class="card_title">Web Developer</span>
+                 <span class="card_name">Shaffan</span>
+                 <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, rerum?</p>
+                 
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+
+
+
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: true,
+            autoplayTimeout:1000,
+            autoplayHoverPause: true,
+
+            effect:"coverflow",
+            grabCursor : true,
+            sliderPerView: "auto",
+            coverflowEffect:{
+                rotate:0,
+                strech: 0,
+                depth: 300,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination:{
+                el: ".swiper-pagination",
+            },
+        }
+        );
+    </script>
+  
+</body>
+</html>

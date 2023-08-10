@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="image1.png" alt="card image">
+                </div>
+                    <div class="card_content">
+                    <span class="card_title">Web Designer</span>
+                    <span class="card_name">Muhammad Shaffan</span>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde odio consectetur temporibus illo, molestias dicta? Similique enim inventore id. Inventore.</p>
+
+                    <button class="card_btn">Read More</button>
+                </div>
+            </div>
+
+
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="image1.png" alt="card image">
+                </div>
+                    <div class="card_content">
+                    <span class="card_title">Web Designer</span>
+                    <span class="card_name">Muhammad Shaffan</span>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde odio consectetur temporibus illo, molestias dicta? Similique enim inventore id. Inventore.</p>
+
+                    <button class="card_btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="image1.png" alt="card image">
+                </div>
+                    <div class="card_content">
+                    <span class="card_title">Web Designer</span>
+                    <span class="card_name">Muhammad Shaffan</span>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde odio consectetur temporibus illo, molestias dicta? Similique enim inventore id. Inventore.</p>
+
+                    <button class="card_btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+     <script>       var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+</body>
+</html>
